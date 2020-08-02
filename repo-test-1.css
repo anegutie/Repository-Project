@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: linear-gradient(260deg, #ee0202 0%, #ffffff 50%,#0702ff 75% );
+  }
+  
+  a {
+    color:black;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background:rgba(0,0,0,0.2);
+    padding:20px 5px;
+    width: 25%;
+    text-align: center;
+    transition:all 0.5s;
+  }
+  
+  a:hover {
+    background:rgba(0,0,0,0.3);
+  }
+  
+  .toggleNav {
+    display: none;
+  }
+  
+  img {
+    width:50%;
+  }
+  
+  .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding:10px;
+    border:0;
+  }
+  .social-title{
+    color:black;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background:rgba(87, 0, 0, 0.2);
+    padding:20px 5px;
+    width: 25%;
+    text-align: center;
+    transition:all 0.5s;
+  }
+  .social {
+    color:black;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background:rgba(87, 0, 0, 0.2);
+    padding:20px 5px;
+    width: 4%;
+    height: 4vh;
+    text-align: center;
+    transition:all 0.5s;  
+  }
+  h1 {
+      text-align: center;
+  }
+  section, footer {
+    text-align: center;
+    background:rgba(0,0,0,0.2);
+    padding:20px;
+    margin:20px 0;
+    color:black;
+    font-weight: 100;
+  }
+  
+  /* Flex Container */
+  .flex-nav {  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-content: flex-start;
+  }
+  
+  @media all and (max-width:1000px) {
+  
+  }
+  
+  
+  @media all and (max-width:500px) {
+    
+  }

@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>FlexBox Nav</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="repo-test-1.css">
 </head>
 <body>
-    <h1> Hello </h1>
+  
+  <div class="wrapper">
+    
+    <header class="top">
+      <h1>Modesto Battery</h1>
+    </header>
+
+    <nav class="flex-nav">
+      <a href="#" class="toggleNav">☰ Menu</a>
+      <a class="Batteries" href="https://www.modestobattery.net/">Car/Commercial Batteries</a>
+        <a class="Batteries" href="https://www.modestobattery.net/">Motorcycle Batteries</a>
+        <a class="Batteries" href="https://www.modestobattery.net/">Household Batteries</a>
+        <a class="Batteries" href="https://www.modestobattery.net/">Electronic/Other Batteries</a>
+        <h4 class="social-title">Follow us on Social Media</h4>
+        <a class="social" href="https://www.facebook.com/angelica.gutierrez.77377/"><i class="fa fa-facebook"></i></a>
+        <a class="social"href="https://www.instagram.com/modestobattery/"><i class="fa fa-instagram"></i></a>
+    </nav>
+
+    <section class="hero">
+      <img src="data:image/jpeg;base64,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">
+    </section>
+
+    <section class="details">
+      <p>Tired of starting your day with a dead battery?</p>
+      <p>We provide you with a dependable battery that gives you peace of mind!</p>
+    </section>
+
+    <section class="signup">
+      <form action="" class="signup">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email Address">
+        <input type="submit" value="Get me a Quote!">
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; Modesto Battery</p>
+    </footer>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    
+    $(function() {
+      $('.toggleNav').on('click',function() {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+
+  </script>
 </body>
 </html>
